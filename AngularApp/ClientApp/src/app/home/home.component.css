@@ -1,0 +1,67 @@
+.content {
+  overflow: auto;
+  height: 100vh;
+}
+
+.smiley {
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.day-of-week {
+  margin-left: 100px;
+  text-align: left;
+}
+
+.user-info {
+  margin-top: 100px;
+  width: 180px;
+}
+
+.files-list{
+  margin-top: 100px;
+  width: 180px;
+}
+.date-picker {
+  margin-top: 100px;
+}
+.picker {
+  width: 180px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.column {
+  float: left;
+}
+
+.col-a {
+  background-color: #d1d1d1;
+  height: 100vh;
+  width: 15vw;
+  padding-left: 50px;
+}
+
+.col-b {
+  background-color: #f9fa73;
+  height: 100vh;
+  width: 25vw;
+  border-left: solid;
+  border-right: solid;
+}
+
+.col-c {
+  background-color: #daffcc;
+  height: 100vh;
+  width: 15vw;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
